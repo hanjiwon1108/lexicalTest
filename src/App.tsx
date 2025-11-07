@@ -22,6 +22,7 @@ import { ListNode, ListItemNode } from "@lexical/list";
 import { CodeNode, CodeHighlightNode } from "@lexical/code";
 import { TableNode, TableCellNode, TableRowNode } from "@lexical/table";
 import { AutoLinkNode, LinkNode } from "@lexical/link";
+import { ForeignWordNode } from "./shared/nodes/ForeignWordNode";
 
 export default function App() {
   // codeHighlight의 키를 문자열로 감싸 linter/파서 혼동을 회피합니다.
@@ -100,6 +101,7 @@ export default function App() {
       TableRowNode,
       AutoLinkNode,
       LinkNode,
+      ForeignWordNode,
     ],
     onError: (error: unknown) => {
       console.error(error);
