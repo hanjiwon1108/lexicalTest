@@ -66,3 +66,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* 외래어 하이라이팅 스타일 */
+.foreign-word-highlight {
+  background-color: #ffe6e6 !important;
+  border-bottom: 2px solid #ff4444 !important;
+  cursor: pointer !important;
+  padding: 2px 4px !important;
+  border-radius: 3px !important;
+  transition: all 0.2s ease;
+}
+
+.foreign-word-highlight:hover {
+  background-color: #ffcccc !important;
+  border-bottom-color: #ff0000 !important;
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.2);
+}
